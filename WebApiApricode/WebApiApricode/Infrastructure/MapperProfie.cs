@@ -2,7 +2,7 @@
 using WebApiApricode.Data.Contracts.Models.DTO;
 using WebApiApricode.Data.Contracts.Models.Entities;
 
-namespace WebApiApricode.Services
+namespace WebApiApricode.Infrastructure
 {
     internal class MapperProfile : Profile
     {

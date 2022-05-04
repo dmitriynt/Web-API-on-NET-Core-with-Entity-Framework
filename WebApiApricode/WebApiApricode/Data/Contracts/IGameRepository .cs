@@ -42,6 +42,6 @@ namespace WebApiApricode.Data.Contracts
         /// Получение всех игр, соответствующих указанным жанрам
         /// </summary>
         /// <param name="genre">Список жанров</param>
-        public List<GameEntity> GetGamesToGenres(List<GenreEnum> genre);
+        public List<GameEntity> GetGamesByGenres(List<GenreEnum> genre);
     }
 }

@@ -5,13 +5,13 @@ using WebApiApricode.Data.Implementation;
 using WebApiApricode.Data.Contracts;
 using WebApiApricode.Data.Ef;
 using WebApiApricode.Data.Contracts.Models.DTO;
-using WebApiApricode.Services.Validators;
+using WebApiApricode.Infrastructure.Validators;
 using FluentValidation;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
 using AutoMapper;
 
-namespace WebApiApricode.Services.Extensions
+namespace WebApiApricode.Infrastructure.Extensions
 {
     internal static class ServiceCollectionExtensions
     {

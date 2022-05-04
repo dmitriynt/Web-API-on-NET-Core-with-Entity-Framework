@@ -1,4 +1,4 @@
-using WebApiApricode.Services.Extensions;
+using WebApiApricode.Infrastructure.Extensions;
 using FluentValidation.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);

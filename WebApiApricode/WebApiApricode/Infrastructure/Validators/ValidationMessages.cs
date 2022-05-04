@@ -1,4 +1,4 @@
-﻿namespace WebApiApricode.Services.Validators
+﻿namespace WebApiApricode.Infrastructure.Validators
 {
     internal class ValidationMessages
     {

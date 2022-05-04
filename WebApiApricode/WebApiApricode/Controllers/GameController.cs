@@ -50,7 +50,7 @@ namespace WebApiApricode.Controllers
         [HttpPost("genres/")]
         public IActionResult GetGameToGenre([FromBody] SearchByGenreRequest genre)
         {
-            var result = _gameService.GetGamesToGenres(genre);
+            var result = _gameService.GetGamesByGenres(genre);
             return Ok(result);
         }
 

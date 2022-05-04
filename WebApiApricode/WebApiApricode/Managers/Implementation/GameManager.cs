@@ -59,10 +59,10 @@ namespace WebApiApricode.Managers.Implementation
             return result;
         }
 
-        public IEnumerable<GameResponse> GetGamesToGenres(SearchByGenreRequest genres)
+        public IEnumerable<GameResponse> GetGamesByGenres(SearchByGenreRequest genres)
         {
-            var target = _mapper.Map<GenresEntity>(genres);
-            var result = from game in _repository.GetGamesToGenres(target.Genres)
+            var result = from game in _repository.GetGamesByGenres(
+                _mapper.Map<GenresEntity>(genres).Genres)
                          select _mapper.Map<GameResponse>(game);
             return result;
         }

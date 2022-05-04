@@ -46,6 +46,6 @@ namespace WebApiApricode.Managers.Contracts
         /// </summary>
         /// <param name="genre">SearchByGenreRequest</param>
         /// <returns>Список игр</returns>
-        public IEnumerable<GameResponse> GetGamesToGenres(SearchByGenreRequest genre);
+        public IEnumerable<GameResponse> GetGamesByGenres(SearchByGenreRequest genre);
     }
 }

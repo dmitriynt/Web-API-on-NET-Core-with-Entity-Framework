@@ -37,7 +37,7 @@ namespace WebApiApricode.Data.Implementation
             return result == null ? new GameEntity() { Title = String.Empty } : result;
         }
 
-        public List<GameEntity> GetGamesToGenres(List<GenreEnum> genres)
+        public List<GameEntity> GetGamesByGenres(List<GenreEnum> genres)
         {
             IQueryable<GameEntity> result = _context.Games;
             foreach(var genre in genres)

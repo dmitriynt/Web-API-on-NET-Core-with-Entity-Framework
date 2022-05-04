@@ -1,4 +1,4 @@
-﻿namespace GamesReviewsAPI.Services.Validation
+﻿namespace GamesReviewsAPI.Infrastructure.Validation
 {
     internal class ErrorModel
     {
